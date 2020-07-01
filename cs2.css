@@ -17,9 +17,6 @@ body{
     animation-duration: 800ms;
     animation-iteration-count: infinite;
 }
-.d1:hover{
-    display:none;
-}
 
 .d2{
     font-family:sans-serif;
@@ -51,6 +48,21 @@ body{
     text-align: center;
    animation-name: a1;
     animation-duration:1s;
+    animation-iteration-count: infinite;
+}
+.d4{
+    font-family:sans-serif;
+    font-weight: 900;
+    width:auto;
+    height:100%;
+    margin-top:0 auto;
+    padding:1%;
+    color: #000000;
+    display:inline-block;
+    background-image:linear-gradient(to right,#00ee44,#ff3300);
+    text-align: center;
+   animation-name: a1;
+    animation-duration: 400ms;
     animation-iteration-count: infinite;
 }
 @keyframes a1{
