@@ -1,0 +1,98 @@
+body{
+    background-color:black;
+}
+.d1{
+    font-family:sans-serif;
+    font-weight: 900;
+    width:auto;
+    height:10%;
+    margin-top:20%;
+    margin-left:22%;
+    padding:1%;
+    color: #000000;
+    display:inline-block;
+    background-image:linear-gradient(to right,#ff88ff,#ff8800,#00ee99);
+    text-align: center;
+   animation-name: a1;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+.d1:hover{    width: 10%;
+              height : 15%;
+}
+
+.d2{
+    font-family:sans-serif;
+    font-weight: 900;
+    width:auto;
+    height:10%;
+ /*   margin-top:20%;*/
+    margin: 0 auto;
+    padding: 1%;
+    color: #000000;
+    display: inline-block;
+    background-image:linear-gradient(to right,#00ee99,#fDE3FF);
+    text-align: center;
+    animation-name: a1;
+    animation-duration:6s;
+    animation-iteration-count: infinite;
+}
+.d2:hover{    width: 10%;
+              height : 15%;
+}
+.d3{
+    font-family:sans-serif;
+    font-weight: 900;
+    width:auto;
+    height:100%;
+        margin: 0 auto;
+  /*  margin-top:20%;*/
+    padding: 1%;
+    color: #000000;
+    display: inline-block;
+    background-image:linear-gradient(to right,#fDE3FF,#faf349,#f23400);
+    text-align: center;
+   animation-name: a1;
+    animation-duration:6s;
+    animation-iteration-count: infinite;
+}
+.d4{
+    font-family:sans-serif;
+    font-weight: 900;
+    width:auto;
+    height:100%;
+        margin: 0 auto;
+  /*  margin-top:20%;*/
+    padding: 1%;
+    color: #000000;
+    display: inline-block;
+    background-image:linear-gradient(to right,#FF5522,#FF99FF);
+    text-align: center;
+   animation-name: a1;
+    animation-duration:6s;
+    animation-iteration-count: infinite;
+}
+@keyframes a1{
+    0%{opacity: 0.1;
+        transform: rotate(0deg);
+        
+    }
+    10%{ opacity:0.2;
+        
+    }
+    20%{   opacity:0.3;
+         transform:skewX(30deg);
+    }
+    50%
+    { opacity: 0.4;
+        transform: rotate(360deg);
+    }
+    60%{ opacity: 0.6;       
+       
+    }
+    100%{
+        opacity: 1;
+          transform: rotate(0deg);
+    }
+    
+}
